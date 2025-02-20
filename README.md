@@ -30,12 +30,6 @@ To execute the tests, use:
 npx playwright test
 ```
 
-Run tests for a specific environment (e.g., staging):
-
-```sh
-ENV=staging npx playwright test
-```
-
 ### 2️⃣ Run Tests and Generate Allure Report
 
 Execute tests with Allure reporting enabled:
@@ -79,7 +73,7 @@ To configure Allure reporting in Playwright:
    mkdir -p allure-results
    ```
 
-## File Structure
+## 📂File Structure
 ```
 📂 PlaywrightTypeScriptFunctional
 ├── 📂 tests           # Test scripts
@@ -109,19 +103,16 @@ To configure Allure reporting in Playwright:
   npx playwright test --debug
   ```
 
-- Run tests in a specific browser:
-
-  ```sh
-  BROWSER=chromium npx playwright test
-  ```
 
 ## 📝 Notes
 
 - Ensure `allure-results` is ignored in `.gitignore` to prevent unnecessary commits.
 - Adjust `playwright.config.ts` to enable or disable reporters as needed.
 
+## 📹 video
+
+https://github.com/user-attachments/assets/e1dcacd5-66fd-4c1e-8b50-2061328bf096
 
 ---
 🚀 Happy Testing!
 
-# PlaywrightTypeScriptFunctional
