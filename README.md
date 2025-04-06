@@ -94,7 +94,7 @@ To configure Allure reporting in Playwright:
 
   ```sh
   npx playwright test tests/example.spec.ts
-  npx playwright test ./tests/saucedemo_login.spec.spec.ts --ui
+  npx playwright test saucedemo_login.spec.spec.ts --ui
   ```
 
 - Debug a test:

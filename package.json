@@ -6,17 +6,16 @@
   "scripts": {
     "pretest": "npx ts-node generate-env.ts",
     "test": "npx playwright test",
-    "testallure" : "npx playwright test ./tests/saucedemo_login.spec.spec.ts",
+    "testallure": "npx playwright test ./saucedemo_login.spec.spec.ts",
     "allure:report": "npx allure generate allure-results --clean && npx allure open"
   },
-
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4",
-    "allure-playwright": "^3.2.0"
+    "allure-playwright": "^3.2.0",
+    "ts-node": "^10.9.2"
   }
 }
