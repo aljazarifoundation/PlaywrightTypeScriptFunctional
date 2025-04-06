@@ -2,7 +2,7 @@ name: Run Playwright Tests with Allure
 
 on:
   push:
-    branches: [main]  # atau ganti dengan nama branch kamu
+    branches: [main]
 
 jobs:
   test:
@@ -27,7 +27,7 @@ jobs:
         run: npx playwright test tests/saucedemo_login.spec.ts
 
       - name: Upload Allure Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@8b74c8a3b266fcfb6b6c87fd6d1ad75ecafe9d5f
         with:
           name: allure-results
           path: allure-results/
