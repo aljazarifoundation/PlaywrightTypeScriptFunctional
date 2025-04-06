@@ -27,7 +27,7 @@ jobs:
         run: npx playwright test tests/saucedemo_login.spec.ts
 
       - name: Upload Allure Results
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v2
         with:
           name: allure-results
           path: allure-results/
